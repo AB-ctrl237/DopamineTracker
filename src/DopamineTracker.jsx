@@ -492,7 +492,8 @@ export default function DopamineTracker() {
       {/* Navbar */}
       <nav style={{ background: COLORS.card, borderBottom: `1px solid ${COLORS.border}`, position: "sticky", top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 1rem", display: "flex", alignItems: "center", justifyContent: "space-between", height: 56 }}>
-          <div style={{ fontWeight: 800, fontSize: 18, letterSpacing: "-0.02em" }}>
+          <div style={{ fontWeight: 800, fontSize: 18, letterSpacing: "-0.02em" }} className="name">
+          <img src="src\assets\favicon-black-512.png " className="logo" alt="" srcset="" />
             <span style={{ marginLeft: 6 }}>Dopamine</span>
             <span style={{ color: COLORS.earned }}> Tracker</span>
           </div>
